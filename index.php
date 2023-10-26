@@ -54,6 +54,7 @@
             <div class="card-body">
                 <h3 class="card-title">Negocio Volaris</h3>
                 <p class="card-text">Realizado por: Martin Gabriel Cobos Treviño</p>
+                <p class="card-text" >grado y grupo: 5-I</p>
                 <p class="card-text" >Tabla avion</p>
 
                 <!-- tampilkan pesan sukses ditambah -->
