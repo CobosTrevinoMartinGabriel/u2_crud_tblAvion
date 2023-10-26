@@ -46,6 +46,20 @@ INSERT INTO `avion` (`idAvion`, `idVuelo`, `CapacidadCombus`, `emisionCarbono`, 
 (1, 312, '120,411 litros', '200kg', 269, 'aeropuerto benito juarez', '300km/h', 0);
 COMMIT;
 
+ALTER TABLE `avion`
+  ADD PRIMARY KEY (`idAvion`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `avion`
+--
+ALTER TABLE `avion`
+  MODIFY `idAvion` int(50) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
