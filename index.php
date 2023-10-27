@@ -280,7 +280,7 @@
                     $resultado = mysqli_fetch_array($query);
                     ?>
 
-                    <form action='edit.php' method='POST'>
+                    <form action='editar.php' method='POST'>
                         <div class='modal-body text-start'>
                             <input type='hidden' name='edit_id' id='edit_id'>
 
